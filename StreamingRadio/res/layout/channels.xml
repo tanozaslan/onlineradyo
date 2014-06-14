@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="5dp"
+    android:background="@layout/rowselector">
+
+    <TextView
+        android:id="@+id/channelList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:text="deneme"
+        android:textSize="25dp"
+        />
+	<ImageView
+        android:id="@+id/playIcon"
+        android:visibility="invisible"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="2dip"
+        android:layout_toLeftOf="@+id/icon"
+        android:layout_gravity="center"
+        android:src="@drawable/black"/>
+    <ImageView
+        android:id="@+id/icon"
+        android:visibility="invisible"       
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="2dip"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:src="@drawable/black"/>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent">
+		<LinearLayout 
+		android:id="@+id/contentLayout"
+		android:layout_height="match_parent" 
+		android:layout_width="match_parent"
+		android:orientation="vertical" 
+		android:gravity="center">
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:orientation="horizontal"
+			    android:weightSum="10" >
+
+			    <Button
+			        android:id="@+id/buttonBack"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="2"
+			        android:text="Back" />
+
+			    <Button
+			        android:id="@+id/buttonChannelList"
+			        android:layout_width="0dip"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="3"
+			        android:text="Fvr Chnl" />
+			    
+			    <Button
+			        android:id="@+id/buttonTags"
+			        android:layout_width="0dip"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="3"
+			        android:text="Tags" />
+
+			    <Button
+			        android:id="@+id/buttonGuncelle"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="2"
+			        android:text="Gün" />
+			</LinearLayout>
+
+			<LinearLayout
+			android:id="@+id/slide_layout"
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:weightSum="100">	    	    
+				<LinearLayout
+				    android:id="@+id/llInfo"
+				    android:layout_width="fill_parent"
+				    android:layout_height="0dp"
+				    android:layout_weight="35"
+				    android:orientation="vertical" >						
+						<TextView android:id="@+id/stationView"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content" android:text="deneme"
+							android:layout_marginTop="10dp" android:gravity="center"						 
+							android:textSize="12dp"/>
+						<TextView android:id="@+id/infoView"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content" android:text="deneme"
+							android:layout_marginTop="10dp" android:gravity="center" 
+							android:layout_marginBottom="10dp" 
+							android:textSize="10dp"/>					
+						<LinearLayout 
+							android:layout_height="wrap_content" 
+							android:layout_width="match_parent"
+							android:gravity="center"
+							android:orientation="horizontal"
+							android:weightSum="10">														
+								<Button android:text="Fvr Song" 
+								    android:id="@+id/buttonFvrSong"
+									android:layout_width="0dp" 
+									android:layout_height="30dp"
+									android:layout_weight="3"/>
+								<Button android:text="Stop" 
+								    android:id="@+id/buttonStopPlay"
+									android:layout_width="0dp" 
+									android:layout_height="30dp"
+									android:layout_weight="2"/>
+						</LinearLayout>		
+						<SeekBar android:id="@+id/volumeBar"			
+							android:minHeight="8dp" 
+							android:maxHeight="8dp"
+							android:layout_width="fill_parent" 
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="20dp" 
+							android:layout_marginRight="20dp"
+							android:layout_marginTop="5dp"/>
+				</LinearLayout>
+				<LinearLayout 
+				    	android:id="@+id/llList"
+						android:layout_height="0dp" 
+						android:layout_width="fill_parent"
+						android:orientation="vertical"
+						android:layout_weight="65">																
+						<ListView
+							android:id="@+android:id/list"
+							android:layout_width="match_parent"
+							android:layout_height="fill_parent" >
+						</ListView>						
+				</LinearLayout>	
+			</LinearLayout>	
+		</LinearLayout>
+		<LinearLayout 
+			android:layout_height="48dp" 
+			android:layout_width="320dp"
+			android:gravity="center"
+			android:orientation="vertical">				
+				<view 
+					class="com.greystripe.android.sdk.BannerView" 
+					android:id="@+id/gsBanner"
+					android:layout_width="320dp" 
+					android:layout_height="48dp"/>
+		</LinearLayout>	
+</LinearLayout>	
+		

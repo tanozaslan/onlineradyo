@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="app_name">Online Radio</string>
+    <string name="stopMsg">Unutma beni :)</string>
+    <string name="welcomeMsg">Welcome to ONLINE RADIO</string>
+    <string name="JSONUrlYerli">http://wcomp.rpfusion.com/yerli.json</string> 
+    <string name="JSONUrlYabanci">http://wcomp.rpfusion.com/yabanci.json</string> 
+    <string name="noServerConnection">Cannot recieve response from server.</string>
+    <string name="favButtonStr">Favoriler</string> 
+    <string name="normalButtonStr">Kanallar</string> 
+    
+       
+</resources>

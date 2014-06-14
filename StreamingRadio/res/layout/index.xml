@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+		android:id="@+id/contentLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+	        <ImageView
+	            android:id="@+id/splashicon"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:paddingTop="0dp"           
+	            android:src="@drawable/index" />
+	    </LinearLayout>
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" 
+		    android:paddingTop="0dp">
+	        <Button
+	            android:id="@+id/btnYerli"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:width="100dp"          
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Yerli" />
+	        <Button
+	            android:id="@+id/btnYabanci"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:width="100dp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Yabancı" />
+		</LinearLayout>
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:orientation="horizontal"
+		    android:paddingTop="20dp" >
+	        <Button
+	            android:id="@+id/btnKanalFvr"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:width="100dp"          
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Fvr Kanallar" />
+	        <Button
+	            android:id="@+id/btnTags"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:width="100dp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Tags" />
+	        <Button
+	            android:id="@+id/btnRecs"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:width="100dp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""/>
+	   	</LinearLayout>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_height="48dp" 
+		android:layout_width="320dp"
+		android:gravity="center"
+		android:orientation="vertical">				
+		<view 
+			class="com.greystripe.android.sdk.BannerView" 
+			android:id="@+id/gsBanner"
+			android:layout_width="320dp" 
+			android:layout_height="48dp"/>
+		</LinearLayout>			
+</LinearLayout>

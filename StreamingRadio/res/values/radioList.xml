@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="radioName">
+        <item>POWERTURK</item>
+        <item>KRAL FM</item>
+        <item>SUPER FM</item>
+        <item>1 NUMARA</item>
+        <item>KRAL TURK</item>
+        <item>JOY TURK</item>
+        <item>RADYO MEGA</item>
+        <item>KANAL TURK RADYO</item>   
+        <item>RADYO SLOW TIME</item> 
+        <item>MYDONOSE TURK POP</item>
+        <item>RADYO TATLISES</item>
+        <item>ISTANBUL FM</item>   
+        <item>RADYO ON</item>   
+        <item>RADYO 7</item>
+        <item>RADYO 7 SANAT MUZIGI</item>
+        <item>RADYO 7 TURKU</item>
+        <item>RADYO SPOR</item>
+        <item>RADYO TRAFIK</item>
+        <item>NTV SPOR</item>
+        </string-array>
+    <string-array name="radioURL">
+		<item>http://46.20.4.58:8040/</item>
+		<item>http://sc-kral.mncdn.net:80/</item>
+		<item>http://superfm.radyolarburada.com:9080/</item> 
+		<item>http://1numara.radyoyayini.com:3332/</item>
+		<item>http://sunucu2.radyolarburada.com:6565/</item>
+		<item>http://213.251.185.68:8900/</item>
+		<item>http://sunucu4.radyolarburada.com:1054/</item>
+		<item>http://94.75.221.228:80/</item>
+		<item>http://live5.radyotvonline.com:8180/</item>
+		<item>http://91.121.113.181:7555/</item>
+		<item>http://live5.radyotvonline.com:9770/</item>
+		<item>http://85.25.122.231:8057/</item>
+		<item>http://radyoon.radyolarburada.com:8040/</item>
+		<item>http://live.gostream.nl:8040/</item>
+		<item>http://live.gostream.nl:8050/</item>
+		<item>http://live.gostream.nl:8010/</item>
+		<item>http://live4.radyotvonline.com:8160/</item>
+		<item>http://live2.radyotvonline.com:8000/</item>
+		<item>http://sc-ntvspor.mncdn.net:80/</item>       
+        </string-array>  
+ </resources>
